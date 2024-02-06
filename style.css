@@ -1,0 +1,38 @@
+html {
+    background-color: rgb(226, 186, 138);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.MainContainer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;   
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.Information {
+    width: 60%;
+}
+
+.Food {
+    display: flex;
+    flex-direction: row;
+}
+
+.Food p {
+    text-align: center;
+    width: 50%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    padding: 10px;
+}
